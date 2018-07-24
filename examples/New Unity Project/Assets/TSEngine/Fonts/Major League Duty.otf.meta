@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 74ca1111073c88b42a07ac9aa03712f3
+timeCreated: 1509897336
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Major League Duty
+  fontNames:
+  - Major League Duty
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
