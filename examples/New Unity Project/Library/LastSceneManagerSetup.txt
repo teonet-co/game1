@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/TSEngine/Scenes/TopDown2D.unity
-  isLoaded: 1
-  isActive: 1
