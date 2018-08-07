@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="left-down" width="75" height="75" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
  <properties>
-  <property name="unity:scale" type="float" value="0"/>
+  <property name="unity:scale" value=".0625"/>
  </properties>
  <tileset firstgid="1" name="base tileset" tilewidth="16" tileheight="16" spacing="1" tilecount="1767" columns="57">
   <image source="../Art/roguelikeSheet_transparent.png" width="968" height="526"/>
