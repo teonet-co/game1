@@ -4,11 +4,6 @@
  <terraintypes>
   <terrain name="Dirt" tile="578"/>
  </terraintypes>
- <tile id="2">
-  <objectgroup draworder="index">
-   <object id="1" x="0" y="0" width="16" height="16"/>
-  </objectgroup>
- </tile>
  <tile id="3">
   <objectgroup draworder="index">
    <object id="10" x="0.0625" y="0.125" width="15.75" height="15.75"/>
@@ -55,15 +50,9 @@
  <tile id="520" terrain=",,,0"/>
  <tile id="521" terrain=",,0,0"/>
  <tile id="522" terrain=",,0,"/>
- <tile id="526">
-  <objectgroup draworder="index">
-   <object id="2" x="0.3125" y="0.9375" width="15.1875" height="15.1875"/>
-  </objectgroup>
- </tile>
  <tile id="575" terrain="0,,0,0"/>
  <tile id="576" terrain=",0,0,0"/>
  <tile id="577" terrain=",0,,0"/>
- <tile id="578" terrain="0,0,0,0"/>
  <tile id="579" terrain="0,,0,"/>
  <tile id="634" terrain=",0,,"/>
  <tile id="635" terrain="0,0,,"/>
