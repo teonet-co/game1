@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 8/7/2018 10:47:21 PM-->
+<!--Last exported: 8/8/2018 12:13:29 AM-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="test_area_mesh_0001" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="test_area_mesh_0002" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="test_area_mesh_0003" material="roguelikeSheet_transparent" />
-  <Prefab name="test_area" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="3" numTilesWide="75" numTilesHigh="75" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="1200" mapHeightInPixels="1200" backgroundColor="#808080">
+  <Prefab name="test_area" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="3" numTilesWide="75" numTilesHigh="75" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="1200" mapHeightInPixels="1200" backgroundColor="#808080" scale=".0625">
     <GameObject name="Tile Layer 1" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="roguelikeSheet_transparent" x="0" y="0" mesh="test_area_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
@@ -27,7 +27,7 @@
     </GameObject>
     <GameObject name="Objects" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
-      <GameObject name="roguelikeSheet_transparent" x="0" y="0" mesh="test_area_mesh_0003" sortingLayerName="" sortingOrder="2" opacity="1" />
+      <GameObject name="roguelikeSheet_transparent" x="0" y="0" mesh="test_area_mesh_0003" sortingLayerName="WorldObjects" sortingOrder="2" opacity="1" />
       <GameObject name="Collision">
         <PolygonCollider2D>
           <Path>304,-96 288,-96 288,-112 304,-112</Path>
