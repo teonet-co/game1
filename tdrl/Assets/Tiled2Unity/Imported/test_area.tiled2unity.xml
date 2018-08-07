@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 8/8/2018 1:18:49 AM-->
+<!--Last exported: 8/8/2018 1:26:15 AM-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="test_area_mesh_0001" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="test_area_mesh_0002" material="roguelikeSheet_transparent" />
@@ -48,6 +48,12 @@
     <GameObject name="Collision Layer" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="red-collision-box" x="0" y="0" mesh="test_area_mesh_0005" sortingLayerName="" sortingOrder="3" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>239,-31 239,-48 671,-48 671,-575 255,-575 255,-592 688,-592 688,-31</Path>
+          <Path>352,-399 352,-351 319,-351 319,-432 400,-432 400,-399</Path>
+        </PolygonCollider2D>
+      </GameObject>
     </GameObject>
     <GameObject name="Object Layer 1" x="0" y="0" z="0">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
