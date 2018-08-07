@@ -68,9 +68,4 @@
  <tile id="634" terrain=",0,,"/>
  <tile id="635" terrain="0,0,,"/>
  <tile id="636" terrain="0,,,"/>
- <tile id="643">
-  <objectgroup draworder="index">
-   <object id="2" x="0" y="0" width="16" height="16"/>
-  </objectgroup>
- </tile>
 </tileset>
