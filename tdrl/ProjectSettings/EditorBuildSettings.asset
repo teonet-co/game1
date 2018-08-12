@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/TouchJoysticks/DemoScenes/DualJoystickDemo.unity
-    guid: 4c83b817e974056459ec52b8abe4ec62
+    path: Assets/Scenes/MainScene.unity
+    guid: c66f8fd0779d14534b1eda3bf6280599
+  - enabled: 1
+    path: Assets/Scenes/testHouse.unity
+    guid: 5025c15540c444158b11e93e8f880eab
   m_configObjects: {}
