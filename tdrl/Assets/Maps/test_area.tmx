@@ -3,7 +3,7 @@
  <properties>
   <property name="unity:scale" value=".0625"/>
  </properties>
- <tileset firstgid="1" source="base tileset.tsx"/>
+ <tileset firstgid="1" source="base_tileset.tsx"/>
  <tileset firstgid="1768" source="red_collision.tsx"/>
  <tileset firstgid="1769" source="tower.tsx"/>
  <layer name="Tile Layer 1" width="75" height="75">

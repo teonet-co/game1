@@ -3,7 +3,7 @@
  <properties>
   <property name="unity:scale" value=".0625"/>
  </properties>
- <tileset firstgid="1" source="base tileset.tsx"/>
+ <tileset firstgid="1" source="base_tileset.tsx"/>
  <layer name="house_layer1" width="10" height="10">
   <data encoding="csv">
 701,699,699,699,699,699,699,699,699,702,
