@@ -144,21 +144,6 @@
   <object id="17" x="876" y="634">
    <polyline points="0,0 -1,-229"/>
   </object>
-  <object id="18" x="463" y="859" width="23" height="15">
-   <ellipse/>
-  </object>
-  <object id="19" x="745" y="859" width="25" height="13">
-   <ellipse/>
-  </object>
-  <object id="22" x="757" y="1100" width="2">
-   <ellipse/>
-  </object>
-  <object id="23" x="748" y="1095" width="19" height="10">
-   <ellipse/>
-  </object>
-  <object id="25" x="465" y="1088" height="1">
-   <ellipse/>
-  </object>
   <object id="28" x="867" y="784">
    <polyline points="0,0 8,0 9,382"/>
   </object>
