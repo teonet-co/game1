@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="left-up" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextobjectid="5">
+ <properties>
+  <property name="unity:scale" value=".0625"/>
+ </properties>
+ <tileset firstgid="1" source="base_tileset.tsx"/>
+ <layer name="house_layer1" width="10" height="10">
+  <data encoding="csv">
+701,699,699,699,699,699,699,699,699,702,
+757,874,874,874,874,874,874,874,874,757,
+757,874,874,874,874,874,874,874,874,757,
+757,874,874,874,874,874,874,874,874,757,
+757,123,123,123,123,123,123,123,123,757,
+757,123,123,123,123,123,123,123,123,757,
+66,123,123,123,123,123,123,123,123,66,
+66,123,123,123,123,123,123,123,123,66,
+66,123,123,123,123,123,123,123,123,66,
+0,0,0,0,0,123,0,0,0,0
+</data>
+ </layer>
+ <layer name="house_layer2" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,174,175,176,0,0,0,
+0,0,0,0,231,232,233,0,0,0,
+0,0,0,0,288,289,290,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" x="65.5877" y="82.1026" width="44.3543" height="44.8261"/>
+  <object id="2" x="0.471854" y="1.41556" width="159.015" height="62.2847"/>
+  <object id="3" x="0.471854" y="64.644" width="15.5712" height="79.2715"/>
+  <object id="4" x="144.387" y="65.5877" width="14.1556" height="77.384"/>
+ </objectgroup>
+</map>
