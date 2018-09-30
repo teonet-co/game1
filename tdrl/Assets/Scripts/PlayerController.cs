@@ -14,10 +14,12 @@ public class PlayerController : MonoBehaviour {
 
     private static bool playerExists;
 
+    public Joystick joystick;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
 		myRigidbody = GetComponent<Rigidbody2D>();
+        joystick = FindObjectOfType<Joystick>();
 
         if (!playerExists)
         {
@@ -33,7 +35,14 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		playerMoving = false;
+        Vector3 moveVector = (Vector3.right * joystick.Horizontal + Vector3.up * joystick.Vertical);
 
+        if (moveVector != Vector3.zero)
+        {
+           // transform.rotation = Quaternion.LookRotation(Vector3.forward, moveVector);
+            transform.Translate(moveVector * moveSpeed * Time.deltaTime, Space.World);
+            playerMoving = true;
+        }
 		if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
 		{
 			//transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
