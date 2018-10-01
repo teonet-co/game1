@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Bullet
+  - Shell
+  - PlayerWeapon
+  - Ammo
+  - Arrow
+  - EnemyBullet
+  - Missile
+  - WeaponSelection
+  - MobileJoystick2
+  - Walls
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -14,16 +25,16 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Enemy
   - 
+  - Walls
+  - Bullet
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - EnemyBullet
+  - Shells
+  - Arrow
+  - Cartridges
   - 
   - 
   - 
@@ -42,12 +53,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: grass
     uniqueID: 1587075807
     locked: 0
-  - name: Player
+  - name: player
     uniqueID: 1514259273
     locked: 0
-  - name: WorldObjects
+  - name: gun
     uniqueID: 584213577
+    locked: 0
+  - name: wal
+    uniqueID: 1016668771
     locked: 0
