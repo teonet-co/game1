@@ -11495,8 +11495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 86.100006, y: -40.511993}
-  m_SizeDelta: {x: 172.20001, y: 81.02399}
+  m_AnchoredPosition: {x: 86.100006, y: -46.625946}
+  m_SizeDelta: {x: 172.20001, y: 93.25189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260906539
 MonoBehaviour:
@@ -17424,6 +17424,11 @@ Prefab:
       propertyPath: sight
       value: 
       objectReference: {fileID: 843365830}
+    - target: {fileID: 114287358649051800, guid: d69a446084404974083e0fa79dd6c042,
+        type: 2}
+      propertyPath: shootMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d69a446084404974083e0fa79dd6c042, type: 2}
   m_IsPrefabAsset: 0
@@ -17582,6 +17587,11 @@ Prefab:
         type: 2}
       propertyPath: AIMMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114085002861892476, guid: 0cfad50addbfd404f828f476facef748,
+        type: 2}
+      propertyPath: shootMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cfad50addbfd404f828f476facef748, type: 2}
